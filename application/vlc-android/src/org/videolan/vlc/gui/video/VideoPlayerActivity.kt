@@ -923,8 +923,8 @@ open class VideoPlayerActivity : AppCompatActivity(), PlaybackService.Callback, 
                 when (action) {
                     "up" -> KeyEvent.KEYCODE_DPAD_UP
                     "down" -> KeyEvent.KEYCODE_DPAD_DOWN
-                    "right" -> KeyEvent.KEYCODE_DPAD_RIGHT
-                    "left" -> KeyEvent.KEYCODE_DPAD_LEFT
+                    "skip-next" -> KeyEvent.KEYCODE_DPAD_RIGHT
+                    "skip-previous" -> KeyEvent.KEYCODE_DPAD_LEFT
                     "center" -> KeyEvent.KEYCODE_DPAD_CENTER
                     "back" -> KeyEvent.KEYCODE_BACK
                     "skip-next" -> KeyEvent.KEYCODE_MEDIA_NEXT
